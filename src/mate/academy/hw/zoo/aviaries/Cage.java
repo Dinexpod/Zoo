@@ -15,7 +15,7 @@ public abstract class Cage implements Zoo<Animal> {
 
     @Override
     public void addAnimal(Animal animal) {
-       setAnimalCage(animal);
+        setAnimalCage(animal);
         System.out.println(animalCage.size());
     }
 

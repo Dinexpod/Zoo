@@ -1,5 +1,7 @@
 package mate.academy.hw.zoo.aviaries;
 
-public class AnimalCage extends Cage {
+import mate.academy.hw.zoo.animals.Animal;
+import mate.academy.hw.zoo.animals.Mammal;
 
+public class AnimalCage extends Cage<Mammal> {
 }
